@@ -49,13 +49,13 @@ function saludo(idioma) {
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
 if (idioma === 'aleman'){
-  return "Guten tag!"
+  return "Guten tag!";
 } else if (idioma === 'mandarin'){
-    return "Ni Hao"
+    return "Ni Hao";
 }   else if (idioma === 'ingles'){
-      return 'Hello!'
+      return 'Hello!';
 }     else {
-        return "Hola!"
+        return "Hola!";
 }
 
 }
@@ -71,16 +71,16 @@ function colors(color) {
   switch(color){
     case 'blue':
       return 'This is blue';
-      break;
+      
     case 'red':
       return 'This a red';
-      break;
+    
     case 'green':
       return 'This a green';
-      break;
+      
     case 'orange':
       return 'This a orange';
-      break;
+      
     default:
       return 'Color not found';  
   }
